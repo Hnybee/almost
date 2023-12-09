@@ -254,7 +254,7 @@
 }
 .add-one1 {
     text-align: center;
-    border-bottom: 2px solid orangered;
+    border-bottom: 1px solid orangered;
     padding-bottom: 2px;
     width: fit-content;
     margin: 0 auto;
@@ -262,7 +262,7 @@
 }
 .add-two2 {
     text-align: center;
-    border-bottom: 2px solid orangered;
+    border-bottom: 1px solid orangered;
     padding-bottom: 2px;
     width: fit-content;
     margin: 0 auto;
@@ -408,12 +408,24 @@
 .ten{
     font-size: 1.2rem;
     position: relative;
-    border-radius: 34px;
+    border-radius: 40px;
     width:220px;
-    padding-top: 20px;
-    height: 60px;
+    padding-top: 27px;
+    height: 75px;
     text-align: center;
-    background-color: orangered;
+    background-color:  rgb(237, 60, 33);
+}
+.btn-2{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+.btn-3{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+.btn-5{
+    border-bottom: 1px solid white;
+    width: fit-content;
 }
 .ten a{
     text-decoration: none;
@@ -425,14 +437,13 @@
 }
 .twen{
     font-size: 1.2rem;
-    color: aqua;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 27px;
     position: relative;
-    border-radius: 34px;
+    border-radius: 40px;
     width:220px;
-    height: 60px;
-    background-color: orangered;
+    height: 75px;
+    background-color: rgb(237, 60, 33);
 }
 .same{
     color: white;
@@ -467,7 +478,7 @@
 }
 .food{
     text-align: center;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     padding-bottom: 5px;
     width: fit-content;
 }
@@ -481,7 +492,7 @@
 }
 .eat{
     text-align: center;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     padding-bottom: 5px;
     width: fit-content;
 }
@@ -521,7 +532,6 @@
 
     }
     .head{
-
         height: 860px;
     }
     .one-1 a{
@@ -565,15 +575,18 @@
         width: 215px;
         margin-left: 13px;
         margin-top: 10px;
+        padding-top: 20px;
     }    
     
     .one-2{
         width: 215px;
         height: 55px;
+        padding-top: 20px;
     }
     .one-1{
         height: 55px;
         width: 215px;
+        padding-top: 20px;
     }
     .three{
         margin-top: 30px;
@@ -617,8 +630,8 @@
     }
     .address-body{
         line-height: 30px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 380px;
         font-size: 1.23rem;
         text-align: center;
@@ -690,7 +703,7 @@
         height: 140px;
     }
     .img-4{
-        background-size: contain;
+        background-size: cover;
         height: 1398px;
     }
 
@@ -746,8 +759,9 @@
     }
     .same{
         display: flex;
+        margin-top: 1px;
         flex-direction: column;
-        gap: 50px;
+        gap: 40px;
         padding-left: 20px;
       
     }
@@ -755,11 +769,15 @@
         font-size: 1rem;
         font-weight: 100;
         width: 190px;
+        height: 60px;
+        padding-top: 22px;
     }
     .twen{
         font-size: 1rem;
         font-weight: 100;
         width: 190px;
+        height: 60px;
+        padding-top: 22px;
     }
     .pic-box-btn{
         height: 860px;
@@ -835,7 +853,7 @@
         position: fixed;
     }
     .stuff{
-        margin-top: -30px;
+        margin-top: -50px;
         display: flex;
         padding-left: 20px;
     }
